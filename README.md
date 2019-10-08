@@ -3,7 +3,7 @@ This is a simple CRUD app that provides a React frontend with some express.js mi
 
 # Install
 
-1. Install postgres for you desired operating system (This process can vary greatly depending on what OS you use so I won't explain it here)
+1. Install npm and postgres for you desired operating system (This process can vary greatly depending on what OS you use so I won't explain it here)
 2. Run `./makeDB.sh` in a terminal, this will setup the postgres database for you
 3. Run `cd api && npm install`, this will install the express.js middleware server
 4. Run `cd ../client && npm install`, this will install the React fronted server

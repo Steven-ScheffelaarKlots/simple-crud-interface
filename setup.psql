@@ -112,6 +112,8 @@ ALTER TABLE ONLY public.article
 -- Name: TABLE article; Type: ACL; Schema: public; Owner: postgres
 --
 
+CREATE ROLE welltok WITH ENCRYPTED PASSWORD 'password' LOGIN;
+
 GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE public.article TO welltok;
 
 
